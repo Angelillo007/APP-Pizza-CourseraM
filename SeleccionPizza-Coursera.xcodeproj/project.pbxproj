@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		100059821BF7C27E0062AA15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100059811BF7C27E0062AA15 /* AppDelegate.swift */; };
+		100059841BF7C27E0062AA15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100059831BF7C27E0062AA15 /* ViewController.swift */; };
+		100059871BF7C27F0062AA15 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100059851BF7C27F0062AA15 /* Main.storyboard */; };
+		100059891BF7C27F0062AA15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 100059881BF7C27F0062AA15 /* Assets.xcassets */; };
+		1000598C1BF7C27F0062AA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1000598A1BF7C27F0062AA15 /* LaunchScreen.storyboard */; };
+		100059971BF7C27F0062AA15 /* SeleccionPizza_CourseraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100059961BF7C27F0062AA15 /* SeleccionPizza_CourseraTests.swift */; };
+		100059A21BF7C27F0062AA15 /* SeleccionPizza_CourseraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100059A11BF7C27F0062AA15 /* SeleccionPizza_CourseraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		100059931BF7C27F0062AA15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100059761BF7C27E0062AA15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1000597D1BF7C27E0062AA15;
+			remoteInfo = "SeleccionPizza-Coursera";
+		};
+		1000599E1BF7C27F0062AA15 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 100059761BF7C27E0062AA15 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1000597D1BF7C27E0062AA15;
+			remoteInfo = "SeleccionPizza-Coursera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1000597E1BF7C27E0062AA15 /* SeleccionPizza-Coursera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SeleccionPizza-Coursera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100059811BF7C27E0062AA15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		100059831BF7C27E0062AA15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		100059861BF7C27F0062AA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		100059881BF7C27F0062AA15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1000598B1BF7C27F0062AA15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1000598D1BF7C27F0062AA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100059921BF7C27F0062AA15 /* SeleccionPizza-CourseraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SeleccionPizza-CourseraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100059961BF7C27F0062AA15 /* SeleccionPizza_CourseraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionPizza_CourseraTests.swift; sourceTree = "<group>"; };
+		100059981BF7C27F0062AA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1000599D1BF7C27F0062AA15 /* SeleccionPizza-CourseraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SeleccionPizza-CourseraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100059A11BF7C27F0062AA15 /* SeleccionPizza_CourseraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionPizza_CourseraUITests.swift; sourceTree = "<group>"; };
+		100059A31BF7C27F0062AA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1000597B1BF7C27E0062AA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1000598F1BF7C27F0062AA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1000599A1BF7C27F0062AA15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		100059751BF7C27E0062AA15 = {
+			isa = PBXGroup;
+			children = (
+				100059801BF7C27E0062AA15 /* SeleccionPizza-Coursera */,
+				100059951BF7C27F0062AA15 /* SeleccionPizza-CourseraTests */,
+				100059A01BF7C27F0062AA15 /* SeleccionPizza-CourseraUITests */,
+				1000597F1BF7C27E0062AA15 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1000597F1BF7C27E0062AA15 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1000597E1BF7C27E0062AA15 /* SeleccionPizza-Coursera.app */,
+				100059921BF7C27F0062AA15 /* SeleccionPizza-CourseraTests.xctest */,
+				1000599D1BF7C27F0062AA15 /* SeleccionPizza-CourseraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		100059801BF7C27E0062AA15 /* SeleccionPizza-Coursera */ = {
+			isa = PBXGroup;
+			children = (
+				100059811BF7C27E0062AA15 /* AppDelegate.swift */,
+				100059831BF7C27E0062AA15 /* ViewController.swift */,
+				100059851BF7C27F0062AA15 /* Main.storyboard */,
+				100059881BF7C27F0062AA15 /* Assets.xcassets */,
+				1000598A1BF7C27F0062AA15 /* LaunchScreen.storyboard */,
+				1000598D1BF7C27F0062AA15 /* Info.plist */,
+			);
+			path = "SeleccionPizza-Coursera";
+			sourceTree = "<group>";
+		};
+		100059951BF7C27F0062AA15 /* SeleccionPizza-CourseraTests */ = {
+			isa = PBXGroup;
+			children = (
+				100059961BF7C27F0062AA15 /* SeleccionPizza_CourseraTests.swift */,
+				100059981BF7C27F0062AA15 /* Info.plist */,
+			);
+			path = "SeleccionPizza-CourseraTests";
+			sourceTree = "<group>";
+		};
+		100059A01BF7C27F0062AA15 /* SeleccionPizza-CourseraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				100059A11BF7C27F0062AA15 /* SeleccionPizza_CourseraUITests.swift */,
+				100059A31BF7C27F0062AA15 /* Info.plist */,
+			);
+			path = "SeleccionPizza-CourseraUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1000597D1BF7C27E0062AA15 /* SeleccionPizza-Coursera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100059A61BF7C27F0062AA15 /* Build configuration list for PBXNativeTarget "SeleccionPizza-Coursera" */;
+			buildPhases = (
+				1000597A1BF7C27E0062AA15 /* Sources */,
+				1000597B1BF7C27E0062AA15 /* Frameworks */,
+				1000597C1BF7C27E0062AA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SeleccionPizza-Coursera";
+			productName = "SeleccionPizza-Coursera";
+			productReference = 1000597E1BF7C27E0062AA15 /* SeleccionPizza-Coursera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		100059911BF7C27F0062AA15 /* SeleccionPizza-CourseraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100059A91BF7C27F0062AA15 /* Build configuration list for PBXNativeTarget "SeleccionPizza-CourseraTests" */;
+			buildPhases = (
+				1000598E1BF7C27F0062AA15 /* Sources */,
+				1000598F1BF7C27F0062AA15 /* Frameworks */,
+				100059901BF7C27F0062AA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				100059941BF7C27F0062AA15 /* PBXTargetDependency */,
+			);
+			name = "SeleccionPizza-CourseraTests";
+			productName = "SeleccionPizza-CourseraTests";
+			productReference = 100059921BF7C27F0062AA15 /* SeleccionPizza-CourseraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1000599C1BF7C27F0062AA15 /* SeleccionPizza-CourseraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 100059AC1BF7C27F0062AA15 /* Build configuration list for PBXNativeTarget "SeleccionPizza-CourseraUITests" */;
+			buildPhases = (
+				100059991BF7C27F0062AA15 /* Sources */,
+				1000599A1BF7C27F0062AA15 /* Frameworks */,
+				1000599B1BF7C27F0062AA15 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1000599F1BF7C27F0062AA15 /* PBXTargetDependency */,
+			);
+			name = "SeleccionPizza-CourseraUITests";
+			productName = "SeleccionPizza-CourseraUITests";
+			productReference = 1000599D1BF7C27F0062AA15 /* SeleccionPizza-CourseraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		100059761BF7C27E0062AA15 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Angel;
+				TargetAttributes = {
+					1000597D1BF7C27E0062AA15 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					100059911BF7C27F0062AA15 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1000597D1BF7C27E0062AA15;
+					};
+					1000599C1BF7C27F0062AA15 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1000597D1BF7C27E0062AA15;
+					};
+				};
+			};
+			buildConfigurationList = 100059791BF7C27E0062AA15 /* Build configuration list for PBXProject "SeleccionPizza-Coursera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 100059751BF7C27E0062AA15;
+			productRefGroup = 1000597F1BF7C27E0062AA15 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1000597D1BF7C27E0062AA15 /* SeleccionPizza-Coursera */,
+				100059911BF7C27F0062AA15 /* SeleccionPizza-CourseraTests */,
+				1000599C1BF7C27F0062AA15 /* SeleccionPizza-CourseraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1000597C1BF7C27E0062AA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1000598C1BF7C27F0062AA15 /* LaunchScreen.storyboard in Resources */,
+				100059891BF7C27F0062AA15 /* Assets.xcassets in Resources */,
+				100059871BF7C27F0062AA15 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100059901BF7C27F0062AA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1000599B1BF7C27F0062AA15 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1000597A1BF7C27E0062AA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100059841BF7C27E0062AA15 /* ViewController.swift in Sources */,
+				100059821BF7C27E0062AA15 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1000598E1BF7C27F0062AA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100059971BF7C27F0062AA15 /* SeleccionPizza_CourseraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		100059991BF7C27F0062AA15 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				100059A21BF7C27F0062AA15 /* SeleccionPizza_CourseraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		100059941BF7C27F0062AA15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1000597D1BF7C27E0062AA15 /* SeleccionPizza-Coursera */;
+			targetProxy = 100059931BF7C27F0062AA15 /* PBXContainerItemProxy */;
+		};
+		1000599F1BF7C27F0062AA15 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1000597D1BF7C27E0062AA15 /* SeleccionPizza-Coursera */;
+			targetProxy = 1000599E1BF7C27F0062AA15 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		100059851BF7C27F0062AA15 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				100059861BF7C27F0062AA15 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1000598A1BF7C27F0062AA15 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1000598B1BF7C27F0062AA15 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		100059A41BF7C27F0062AA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		100059A51BF7C27F0062AA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		100059A71BF7C27F0062AA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SeleccionPizza-Coursera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Angel.SeleccionPizza-Coursera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		100059A81BF7C27F0062AA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "SeleccionPizza-Coursera/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Angel.SeleccionPizza-Coursera";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		100059AA1BF7C27F0062AA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SeleccionPizza-CourseraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Angel.SeleccionPizza-CourseraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeleccionPizza-Coursera.app/SeleccionPizza-Coursera";
+			};
+			name = Debug;
+		};
+		100059AB1BF7C27F0062AA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "SeleccionPizza-CourseraTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Angel.SeleccionPizza-CourseraTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeleccionPizza-Coursera.app/SeleccionPizza-Coursera";
+			};
+			name = Release;
+		};
+		100059AD1BF7C27F0062AA15 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SeleccionPizza-CourseraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Angel.SeleccionPizza-CourseraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SeleccionPizza-Coursera";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		100059AE1BF7C27F0062AA15 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "SeleccionPizza-CourseraUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Angel.SeleccionPizza-CourseraUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "SeleccionPizza-Coursera";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		100059791BF7C27E0062AA15 /* Build configuration list for PBXProject "SeleccionPizza-Coursera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100059A41BF7C27F0062AA15 /* Debug */,
+				100059A51BF7C27F0062AA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		100059A61BF7C27F0062AA15 /* Build configuration list for PBXNativeTarget "SeleccionPizza-Coursera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100059A71BF7C27F0062AA15 /* Debug */,
+				100059A81BF7C27F0062AA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		100059A91BF7C27F0062AA15 /* Build configuration list for PBXNativeTarget "SeleccionPizza-CourseraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100059AA1BF7C27F0062AA15 /* Debug */,
+				100059AB1BF7C27F0062AA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		100059AC1BF7C27F0062AA15 /* Build configuration list for PBXNativeTarget "SeleccionPizza-CourseraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				100059AD1BF7C27F0062AA15 /* Debug */,
+				100059AE1BF7C27F0062AA15 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 100059761BF7C27E0062AA15 /* Project object */;
+}
