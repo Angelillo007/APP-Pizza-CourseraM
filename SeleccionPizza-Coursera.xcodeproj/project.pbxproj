@@ -14,6 +14,11 @@
 		1000598C1BF7C27F0062AA15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1000598A1BF7C27F0062AA15 /* LaunchScreen.storyboard */; };
 		100059971BF7C27F0062AA15 /* SeleccionPizza_CourseraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100059961BF7C27F0062AA15 /* SeleccionPizza_CourseraTests.swift */; };
 		100059A21BF7C27F0062AA15 /* SeleccionPizza_CourseraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100059A11BF7C27F0062AA15 /* SeleccionPizza_CourseraUITests.swift */; };
+		100059B01BF7C2DA0062AA15 /* Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = 100059AF1BF7C2DA0062AA15 /* Pizza.png */; };
+		100059B21BF7C6FA0062AA15 /* TamañoPizzaCMG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100059B11BF7C6FA0062AA15 /* TamañoPizzaCMG.swift */; };
+		100059B41BF7C7130062AA15 /* TipoMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100059B31BF7C7130062AA15 /* TipoMasa.swift */; };
+		100059B61BF7C72A0062AA15 /* TipoQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100059B51BF7C72A0062AA15 /* TipoQueso.swift */; };
+		100059B81BF7C73F0062AA15 /* Ingredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 100059B71BF7C73F0062AA15 /* Ingredientes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		1000599D1BF7C27F0062AA15 /* SeleccionPizza-CourseraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SeleccionPizza-CourseraUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		100059A11BF7C27F0062AA15 /* SeleccionPizza_CourseraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeleccionPizza_CourseraUITests.swift; sourceTree = "<group>"; };
 		100059A31BF7C27F0062AA15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100059AF1BF7C2DA0062AA15 /* Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pizza.png; path = "../../../../Desktop/App-Pizza-Coursera/Pizza.png"; sourceTree = "<group>"; };
+		100059B11BF7C6FA0062AA15 /* TamañoPizzaCMG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TamañoPizzaCMG.swift"; sourceTree = "<group>"; };
+		100059B31BF7C7130062AA15 /* TipoMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoMasa.swift; sourceTree = "<group>"; };
+		100059B51BF7C72A0062AA15 /* TipoQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipoQueso.swift; sourceTree = "<group>"; };
+		100059B71BF7C73F0062AA15 /* Ingredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Ingredientes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +113,11 @@
 				100059881BF7C27F0062AA15 /* Assets.xcassets */,
 				1000598A1BF7C27F0062AA15 /* LaunchScreen.storyboard */,
 				1000598D1BF7C27F0062AA15 /* Info.plist */,
+				100059AF1BF7C2DA0062AA15 /* Pizza.png */,
+				100059B11BF7C6FA0062AA15 /* TamañoPizzaCMG.swift */,
+				100059B31BF7C7130062AA15 /* TipoMasa.swift */,
+				100059B51BF7C72A0062AA15 /* TipoQueso.swift */,
+				100059B71BF7C73F0062AA15 /* Ingredientes.swift */,
 			);
 			path = "SeleccionPizza-Coursera";
 			sourceTree = "<group>";
@@ -231,6 +246,7 @@
 			files = (
 				1000598C1BF7C27F0062AA15 /* LaunchScreen.storyboard in Resources */,
 				100059891BF7C27F0062AA15 /* Assets.xcassets in Resources */,
+				100059B01BF7C2DA0062AA15 /* Pizza.png in Resources */,
 				100059871BF7C27F0062AA15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100059B81BF7C73F0062AA15 /* Ingredientes.swift in Sources */,
+				100059B21BF7C6FA0062AA15 /* TamañoPizzaCMG.swift in Sources */,
 				100059841BF7C27E0062AA15 /* ViewController.swift in Sources */,
+				100059B61BF7C72A0062AA15 /* TipoQueso.swift in Sources */,
 				100059821BF7C27E0062AA15 /* AppDelegate.swift in Sources */,
+				100059B41BF7C7130062AA15 /* TipoMasa.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SeleccionPizza-Coursera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Angel.SeleccionPizza-Coursera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SeleccionPizza-Coursera/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Angel.SeleccionPizza-Coursera";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -482,6 +504,7 @@
 				100059A81BF7C27F0062AA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		100059A91BF7C27F0062AA15 /* Build configuration list for PBXNativeTarget "SeleccionPizza-CourseraTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +513,7 @@
 				100059AB1BF7C27F0062AA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		100059AC1BF7C27F0062AA15 /* Build configuration list for PBXNativeTarget "SeleccionPizza-CourseraUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +522,7 @@
 				100059AE1BF7C27F0062AA15 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
