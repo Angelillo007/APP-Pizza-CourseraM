@@ -23,6 +23,12 @@ class TipoMasa: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let = TextoMasa
+        let siguevista = segue.destinationViewController as! ViewController
+        siguevista.Pedido = TextoMasa
+    }
+
     
     @IBAction func PulsarMasa(sender: AnyObject) {
         

@@ -24,6 +24,12 @@ class TipoQueso: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let = TextoQueso
+        let siguevista = segue.destinationViewController as! ViewController
+        siguevista.Pedido = TextoQueso
+    }
+    
     @IBAction func Pulsar(sender: AnyObject) {
         
         TipoQueso.text = TextoQueso.text

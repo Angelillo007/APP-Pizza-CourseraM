@@ -24,6 +24,13 @@ class Ingredientes: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let = TextoIngredientes
+        let siguevista = segue.destinationViewController as! ViewController
+        siguevista.Pedido = TextoIngredientes
+    }
+
+    
     @IBAction func Pulsame(sender: AnyObject) {
         
          TipoIngredientes.text = TextoIngredientes.text
